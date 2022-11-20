@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <title>PrivateX DAO Engage - Vote - Build</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="shortcut icon" href="assets/images/favicon.png" type="images/x-icon" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Radley&family=Roboto:wght@300;400;500;700&family=Rubik:wght@300;400;500;600;700&family=Sansita:wght@400;700;800&display=swap"
+      rel="stylesheet">
+   <!-- gulp:css -->
+   <link rel="stylesheet" href="assets/css/tailwind.min.css">
+   <link rel="stylesheet" href="assets/css/aos.css">
+   <link rel="stylesheet" href="assets/css/custom.css">
+   <!-- endgulp -->
+</head>
+
+<body class="bg-coolGray-800">
+   <div class="main overflow-hidden">
+      <div class="preloader">
+         <div class="load-container">
+            <div class="linespinner"></div>
+         </div>
+      </div>
+      <!--  ====================== Header Area Start =============================  -->
+      <header class="header-area absolute top-0 left-0 right-0 py-3 pt-8 lg:pt-12 z-50">
+         <div class="container">
+            <nav class="header-nav flex items-center justify-between relative">
+               <div class="header-logo">
+                  <a href="index.html" class="flex items-center flex-shrink-0">
+                     <img src="assets/images/brand-logo.png" alt="header-logo">
+                  </a>
+               </div>
+               <div class="flex-grow lg:flex lg:items-center lg:w-auto">
+                  <ul
+                     class="toggle-menu-class justify-end bg-image-menu bg-transparent shadow lg:shadow-none absolute lg:relative inset-x-0 hidden lg:flex lg:flex-grow items-center mt-10 lg:mt-0">
+                     <li class="relative">
+                        <a class="block m-4 py-2 text-coolGray-200 text-lg font-bold transition duration-500"
+                           href="index.html"> Proposals</a>
+                     </li>
+                     <li class="relative">
+                        <a class="block m-4 py-2 text-coolGray-200 text-lg font-bold transition duration-500"
+                           href="how-works.html">How It Works</a>
+                     </li>
+                     <li class="relative">
+                        <a class="block m-4 py-2 text-coolGray-200 text-lg font-bold transition duration-500"
+                           href="dashboard.html">Create a Proposal</a>
+                     </li>
+                     <li class="relative">
+                        <a class="block m-4 py-2 text-coolGray-200 text-lg font-bold transition duration-500"
+                           href="contact.html">Become a Voter</a>
+                     </li>
+                     <li class="relative">
+                        <a class="button block button-gradient border-2 border-white ml-3 px-3 py-3 text-coolGray-200 text-lg font-bold rounded-full shadow transition duration-500"
+                           href="#">Connect Wallet</a>
+                     </li>
+                  </ul>
+               </div>
+               <button class="bg-transparent mobile-toggle block lg:hidden">
+                  <span class="bg-white"></span>
+                  <span class="bg-white"></span>
+                  <span class="bg-white"></span>
+               </button>
+            </nav>
+         </div>
+      </header>
+      <!--  ====================== Contact Area Start =============================  -->
+      <section class="contact-area bg-gradient3 py-10 relative">
+         <div class="container z-40 relative">
+            <div class="grid items-center gap-6 lg:grid-cols-12 z-40 relative">
+               <div class="lg:col-span-12">
+                  <ul class="breadcrumb-navigation flex items-center pb-12" data-aos="fade-up">
+                     <li><a href="#">Home</a></li>
+                     <li><img src="assets/images/arrow.svg" alt="title"></li>
+                     <li><a href="#">Voting</a></li>
+                     <li><img src="assets/images/arrow.svg" alt="title"></li>
+                     <li><a href="#">Make a Proposal</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="grid gap-6 lg:grid-cols-12 z-40 relative">
+               <div class="lg:col-span-8">
+                  <form class="contact-form" data-aos="fade-up">
+                     <div class="mb-4">
+                        <label class="section-title text-2xl block mb-4" for="#">Title</label>
+                        <input class="w-full" type="text" placeholder="Input Text">
+                     </div>
+                     <h6 class="section-title text-2xl mb-4">Content</h6>
+                     <h6 class="section-title text-base mb-4">Tip: write in Markdown!</h6>
+                     <div class="contact-title px-8 py-2">
+                        <ul class="flex flex-wrap items-center">
+                           <li class="py-2 mr-10"><a href="#"><img src="assets/images/format-icon1.svg" alt="title"></a>
+                           </li>
+                           <li class="py-2 mr-6 pr-6 border-r border-coolGray-50"><a href="#"><img
+                                    src="assets/images/format-icon2.svg" alt="title"></a></li>
+                           <li class="py-2 mr-6 pr-6 border-r border-coolGray-50"><a href="#"><img
+                                    src="assets/images/format-icon9.svg" alt="title"></a></li>
+                           <li class="py-2"><a href="#"><img src="assets/images/format-icon3.svg" alt="title"></a></li>
+                           <li class="py-2 mr-6 pr-6 border-r border-coolGray-50"><a href="#"><img
+                                    src="assets/images/format-icon4.svg" alt="title"></a></li>
+                           <li class="py-2 mr-6"><a href="#"><img src="assets/images/format-icon5.svg" alt="title"></a>
+                           </li>
+                           <li class="py-2 mr-6"><a href="#"><img src="assets/images/format-icon6.svg" alt="title"></a>
+                           </li>
+                           <li class="py-2 mr-8"><a href="#"><img src="assets/images/format-icon7.svg" alt="title"></a>
+                           </li>
+                           <li class="py-2"><a href="#"><img src="assets/images/format-icon8.svg" alt="title"></a></li>
+                        </ul>
+                     </div>
+                     <div class="form-box mb-6">
+                        <div class="z-40 relative">
+                           <textarea class="w-full" name="#" id="" cols="30"
+                              rows="13">Lorem ipsum dolor sit amet consectetur. Purus purus risus faucibus et cum eleifend bibendum maecenas ipsum. Maecenas dolor ut sodales leo mattis sit magnis. Duis egestas erat sit consequat. Arcu pretium amet in sapien pharetra. Urna velit interdum ac faucibus urna eget. Vitae urna commodo ut eget adipiscing morbi netus turpis. Phasellus pharetra felis tellus ultricies eu morbi vulputate dolor. Diam platea risus viverra lectus sit malesuada amet. Vel gravida turpis nibh massa. Porttitor consectetur ornare ridiculus interdum tempor magna. Vel lorem in velit odio congue cursus orci dictum amet. Habitant ipsum orci volutpat nec eleifend non eu ac. Sit nibh ac odio ac. Fermentum arcu odio massa nulla. Interdum amet vulputate platea enim. Placerat aliquet commodo lectus eu id. Viverra tempus sed amet eu integer dolor blandit etiam. Pulvinar bibendum ut a amet et tincidunt elit. Sit non tellus id ultrices egestas eu nibh. Vulputate.</textarea>
+                        </div>
+                     </div>
+                     <div class="contact-title px-8 py-4">
+                        <h4 class="section-title text-xl">Choices</h4>
+                     </div>
+                     <div class="form-box p-8">
+                        <div class="z-40 relative">
+                           <div class="mb-4">
+                              <input class="w-full" type="text" placeholder="Input Text">
+                           </div>
+                           <div class="mb-4">
+                              <input class="w-full" type="text" placeholder="Input Text">
+                           </div>
+                           <button
+                              class="button inline-block button-gradient border-2 border-white px-8 py-3 text-coolGray-200 text-lg font-bold rounded-full shadow transition duration-500">Add
+                              Choice</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+               <div class="lg:col-span-4">
+                  <div class="contact-title px-8 py-4">
+                     <h4 class="section-title text-xl">Actions</h4>
+                  </div>
+                  <div class="form-box form-sidebar p-8">
+                     <div class="z-40 relative">
+                        <div class="mb-6">
+                           <label class="text-xs uppercase mb-2 block" for="#">Start Date</label>
+                           <input class="w-full" type="text" placeholder="Input Text">
+                        </div>
+                        <div class="mb-6">
+                           <label class="text-xs uppercase mb-2 block" for="#">Start Time</label>
+                           <input class="w-full" type="text" placeholder="Input Text">
+                        </div>
+                        <div class="mb-6">
+                           <label class="text-xs uppercase mb-2 block" for="#">End Date</label>
+                           <input class="w-full" type="text" placeholder="Input Text">
+                        </div>
+                        <div class="mb-6">
+                           <label class="text-xs uppercase mb-2 block" for="#">End Time</label>
+                           <input class="w-full" type="text" placeholder="Input Text">
+                        </div>
+                        <div class="mb-6">
+                           <label class="text-xs uppercase mb-2 block" for="#">Start Date</label>
+                           <input class="w-full" type="text" placeholder="Input Text">
+                        </div>
+                        <div class="mb-4">
+                           <p class="flex items-center">Snapshot <span class="flex items-center ml-6">7974708 <img
+                                    class="ml-2" src="assets/images/copy-icon.svg" alt="title"></span></p>
+                        </div>
+                        <button
+                           class="button w-full block button-gradient border-2 border-white px-8 py-3 text-coolGray-200 text-lg font-bold rounded-full shadow transition duration-500">Connect
+                           Wallet</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--  ====================== Footer Area Start =============================  -->
+      <footer class="footer-area bg-gradient2 py-10 relative">
+         <div class="container">
+            <div class="text-center mb-16" data-aos="fade-up"><a href="#" class="button2 inline-block"><img
+                     src="assets/images/footer-button.png" alt="title"></a></div>
+            <ul class="flex items-center justify-center">
+               <li><a class="footer-social-icon rounded-full bg-coolGray-800 hover:bg-coolGray-100 flex items-center justify-center m-2 transition duration-500"
+                     href="#"><img src="assets/images/social-icon1.svg" alt="title"></a></li>
+               <li><a class="footer-social-icon rounded-full bg-coolGray-800 hover:bg-coolGray-100 flex items-center justify-center m-2 transition duration-500"
+                     href="#"><img src="assets/images/social-icon2.svg" alt="title"></a></li>
+               <li><a class="footer-social-icon rounded-full bg-coolGray-800 hover:bg-coolGray-100 flex items-center justify-center m-2 transition duration-500"
+                     href="#"><img src="assets/images/social-icon3.svg" alt="title"></a></li>
+               <li><a class="footer-social-icon rounded-full bg-coolGray-800 hover:bg-coolGray-100 flex items-center justify-center m-2 transition duration-500"
+                     href="#"><img src="assets/images/social-icon4.svg" alt="title"></a></li>
+               <li><a class="footer-social-icon rounded-full bg-coolGray-800 hover:bg-coolGray-100 flex items-center justify-center m-2 transition duration-500"
+                     href="#"><img src="assets/images/social-icon5.svg" alt="title"></a></li>
+               <li><a class="footer-social-icon rounded-full bg-coolGray-800 hover:bg-coolGray-100 flex items-center justify-center m-2 transition duration-500"
+                     href="#"><img src="assets/images/social-icon6.svg" alt="title"></a></li>
+            </ul>
+         </div>
+      </footer>
+      <!--  ====================== End Scroll To Top =============================  -->
+      <!-- gulp:js -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/aos.js"></script>
+      <script src="assets/js/app.js"></script>
+      <!-- endgulp -->
+   </div>
+</body>
+
+</html> 
